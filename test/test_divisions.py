@@ -8,10 +8,10 @@ def test_when_ten_is_divided_to_five_then_two_is_returned():
     assert calc_div.div(10, 5) == 2
 
 
-def test_when_ten_is_divided_by_teo_then_five_is_returned():
+def test_when_ten_is_divided_by_ten_then_five_is_returned():
     calc_div_2 = Calculator()
     with pytest.raises(TypeError):
-        calc_div_2.div("Chicken", "egg")
+        calc_div_2.div("Chicken", "egg") != int
 
 
 def test_when_minus_hundred_is_divided_to_five_then_minus_twenty_is_returned():
@@ -28,4 +28,3 @@ def test_when_hundred_is_divided_to_zero_then_minus_twenty_is_returned():
 def test_when_hundred_is_divided_to_100_then_one_is_returned():
     calc_div_3 = Calculator()
     assert calc_div_3.div(100, 100) == 1
-
