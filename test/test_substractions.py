@@ -1,5 +1,4 @@
 from src.calculator import Calculator
-from functools import r
 
 
 def test_when_five_is_subtracted_from_six_then_one_is_returned():
