@@ -1,5 +1,6 @@
 from src.calculator import Calculator
 import pytest
+import operator
 
 
 def test_when_hundred_is_added_to_fifty_then_eleven_is_returned():
