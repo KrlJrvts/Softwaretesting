@@ -29,4 +29,3 @@ def test_when_hundred_is_divided_to_100_then_one_is_returned():
     calc_div_3 = Calculator()
     assert calc_div_3.div(100, 100) == 1
 
-def test_float_
