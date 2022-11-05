@@ -1,5 +1,18 @@
 class Calculator:
-    pass
+    def __int__(self):
+        pass
+
+    def adding(self, first_number, second_number):
+        return first_number + second_number
+
+    def sub(self, first_number, second_number):
+        return first_number - second_number
+
+    def multi(self, first_number, second_number):
+        return first_number * second_number
+
+    def div(self, first_number, second_number):
+        return first_number / second_number
 
 
 """
