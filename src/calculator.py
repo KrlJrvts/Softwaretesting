@@ -1,9 +1,14 @@
+class Calculator:
+    pass
+
+
+"""
 from time import sleep
 from math import sqrt
 
 
-"""EXTRA (optional): Refactor (remake) your own calculator
-from the homework to incorporate the mathematical operations into the functions you create."""
+# EXTRA (optional): Refactor (remake) your own calculator
+from the homework to incorporate the mathematical operations into the functions you create.
 
 print("========================================")
 print("Welcome to the calculator!")
@@ -77,3 +82,4 @@ else:
             print(f"{first_number} {symbol} {second_number} = {stepping()}")
         else:
             print(f"{symbol} is not recognized operator, please insert correct operator.")
+"""

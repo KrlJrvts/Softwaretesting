@@ -1,4 +1,4 @@
-from src.calculator import add
+from src.calculator import Calculator
 
 
 def test_when_five_is_added_to_six_then_eleven_is_returned():
