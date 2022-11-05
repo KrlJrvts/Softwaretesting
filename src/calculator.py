@@ -2,7 +2,7 @@ class Calculator:
     def __int__(self):
         pass
 
-    def adding(self, first_number, second_number):
+    def add(self, first_number, second_number):
         return first_number + second_number
 
     def sub(self, first_number, second_number):
