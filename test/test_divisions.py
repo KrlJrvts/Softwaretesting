@@ -11,7 +11,7 @@ def test_when_ten_is_divided_to_five_then_two_is_returned():
 def test_when_ten_is_divided_by_ten_then_five_is_returned():
     calc_div_2 = Calculator()
     with pytest.raises(TypeError):
-        calc_div_2.div("Chicken", "egg") != int
+        calc_div_2.div("Chicken", "egg")
 
 
 def test_when_minus_hundred_is_divided_to_five_then_minus_twenty_is_returned():
