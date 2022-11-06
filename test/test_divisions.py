@@ -2,11 +2,6 @@ import pytest
 from src.calculator import Calculator
 
 
-@pytest.fixture
-def calc():
-    return Calculator()
-
-
 def test_when_ten_is_divided_to_five_then_two_is_returned(calc):
     assert calc.div(10, 5) == 2
 
