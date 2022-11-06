@@ -1,6 +1,11 @@
 from src.calculator import Calculator
+import pytest
 
 
-def test_when_five_is_multiplied_to_two_then_ten_is_returned():
-    calc_multi = Calculator()
-    assert calc_multi.multi(5, 2) == 10
+@pytest.fixture
+def calc():
+    return Calculator()
+
+
+def test_when_five_is_multiplied_to_two_then_ten_is_returned(calc):
+    assert calc.multi(5, 2) == 10
