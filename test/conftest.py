@@ -10,3 +10,8 @@ def calculator_object():
 @pytest.fixture()
 def calc(calculator_object):
     yield Calculator()  # this way we close object that we close after using (yield)
+
+
+@pytest.fixture
+def before_all():
+    print("This function was called now")
