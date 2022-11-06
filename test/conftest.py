@@ -7,6 +7,6 @@ def calculator_object():
     return Calculator()
 
 
-@pytest.fixture
+@pytest.fixture()
 def calc(calculator_object):
-    return Calculator()
+    yield Calculator()  # this way we close object that we close after using (yield)
